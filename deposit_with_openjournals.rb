@@ -1,4 +1,4 @@
-require "theoj"
+require "neurolibre"
 
 issue_id = ENV["ISSUE_ID"]
 paper_path = ENV["PAPER_PATH"].to_s
