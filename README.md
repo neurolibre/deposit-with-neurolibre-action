@@ -1,6 +1,6 @@
-# Open Journals :: Deposit with Open Journals
+# NeuroLibre :: Deposit with NeuroLibre
 
-This action deposit an accepted paper with Open Journals
+This action deposit an accepted paper with NeuroLibre
 
 ## Usage
 
@@ -34,9 +34,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deposit with Open Journals
-        uses: xuanxu/deposit-with-openjournals-action@main
+        uses: neurolibre/deposit-with-neurolibre-action@main
         with:
-          journal_url: https://joss.theoj.org/
+          journal_url: https://neurolibre.org
           journal_secret: ${{ secrets.JOURNAL_SECRET }}
           issue_id: ${{ github.event.inputs.issue_id }}
           paper_path: ./docs/paper.md
