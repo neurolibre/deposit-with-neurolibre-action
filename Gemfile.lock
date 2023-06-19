@@ -12,13 +12,13 @@ GEM
     faraday-net_http (3.0.2)
     faraday-retry (2.2.0)
       faraday (~> 2.0)
-    github-linguist (7.25.0)
+    github-linguist (7.26.0)
       cgi
       charlock_holmes (~> 0.7.7)
       mini_mime (~> 1.0)
       rugged (~> 1.0)
     mini_mime (1.1.2)
-    neurolibre (1.5.4)
+    neurolibre (1.5.5)
       commonmarker (~> 0.23)
       faraday (~> 2.7)
       faraday-retry (~> 2.0)
@@ -41,7 +41,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  neurolibre
+  neurolibre (= 1.5.5)
 
 BUNDLED WITH
    2.3.4
