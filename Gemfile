@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem "neurolibre", "1.5.7"
+gem "neurolibre", "1.5.8"
